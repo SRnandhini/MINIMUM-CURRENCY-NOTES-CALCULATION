@@ -1,0 +1,69 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int n,d,e,f,g,h,i,j,k,l,m,z,o,p,q,r,s;
+    printf("Enter n:");
+    scanf("%d",&n);
+    if(d=n/500)
+    {
+        printf(" 500 notes: %d",d);
+         printf("\n");
+    }
+    e=n%500;
+    
+    if(f=e/100)
+    {
+        printf("100 notes :%d",f);
+         printf("\n");
+    }
+    g=e%100;
+    
+    if(h=g/50)
+    {
+        printf("50 notes :%d",h);
+         printf("\n");
+    }
+    i=g%50;
+    
+    if(j=i/20)
+    {
+        printf("20 notes :%d",j);
+         printf("\n");
+    }
+    k=i%20;
+     
+    if(l=k/10)
+    {
+        printf("10 notes :%d",l);
+         printf("\n");
+    }
+    m=k%10;
+     
+    if(z=m/5)
+    {
+        printf("5 notes: %d",z);
+         printf("\n");
+    }
+    o=m%5;
+    
+    if(p=o/2)
+    {
+        printf("2 ruppee:%d",p);
+         printf("\n");
+    }
+    q=o%2;
+    
+    if(r=q/1)
+    {
+        printf("1 ruppee:%d",r);
+         printf("\n");
+    }
+    s=q%1;
+    
+    
+    
+    
+    return 0;
+}
